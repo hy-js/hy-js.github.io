@@ -1,0 +1,18 @@
+- name: Home
+  link: /
+- name: Blog
+  link: /blog/
+- name: Projects
+  link: /projects/  
+- name: About
+  link: /about/
+
+# - name: Staff
+#   link: /staff
+# - name: Currents
+#   link: /currents
+
+
+    
+  
+  
