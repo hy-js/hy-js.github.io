@@ -17,6 +17,7 @@ theme_config:
   appearance_toggle: false # if appearance can be switched by user
   github: true #include github card
   show_book: true #show book excerpt
+  show_updated: true #show update date in footer
   back_home_text: "#" # customize text for homepage link in post layout
   date_format: "%d-%m-%Y" # customize how date is formatted
   show_description: true # show blog description

@@ -55,20 +55,20 @@ old_project_entries:
     desc: 
 
 footer_entries:
-  - title: top^
-    url: #
+  - title: github
+    url: https://github.com/hy-js
 
   - title: twitter
     url: https://twitter.com/hyjs_
-
-  - title: github
-    url: https://github.com/hy-js
 
   # - title: email
   #   url: #
 
   - title: feed
     url: feed.xml
+
+  - title: top^
+    url: #
 
 misc_entries:
   - title: this is an example vertical list

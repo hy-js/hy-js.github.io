@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 # will install all gh-pages allowed gems
 # see : https://pages.github.com/versions/
 gem 'github-pages'
+gem "webrick", "~> 1.7"
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 # comment out all other gems
 # gem 'jekyll'
@@ -18,4 +20,4 @@ group :jekyll_plugins do
     gem "jekyll-remote-theme"
     
   end
-gem "webrick", "~> 1.7"
+
