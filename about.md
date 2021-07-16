@@ -26,3 +26,5 @@ permalink: /about/
 
 ## My current favs
 [Music and Movies](/currents.html 'currents')
+
+![visitors](https://visitor-badge.glitch.me/badge?page_id=hy-js.hy-js)
