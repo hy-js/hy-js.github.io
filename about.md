@@ -15,7 +15,6 @@ permalink: /about/
         |       Lots of work      |
         +-------------------------+
         
-{% twitter https://twitter.com/hyjs_?ref_src=twsrc%5Etfw limit=1 maxwidth=500 align =center conversation =none %}
 
 ## Self study progress log
 - [Incode week 4](/tags/#incode)
