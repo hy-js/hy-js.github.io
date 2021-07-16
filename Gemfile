@@ -16,8 +16,7 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap'
     gem 'jekyll-feed'
     gem 'jekyll-seo-tag'
-    gem 'jekyll-twitter-plugin'
     gem "jekyll-remote-theme"
-    
+    gem 'jekyll-twitter-plugin'
   end
 
