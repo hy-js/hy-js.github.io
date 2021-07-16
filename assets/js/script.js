@@ -13,8 +13,3 @@ function getLastModifiedDate() {
     document.getElementById("color").style.color = "#" + randomColor;
   }
   setBg();
-
-  // page views
-  function callbackName(response) {
-    document.getElementById('visits').innerText = response.value;
-}
