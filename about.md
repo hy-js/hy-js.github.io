@@ -18,7 +18,7 @@ permalink: /about/
 
 ## Self study progress log
 - [Incode week 4](/tags/#incode)
-- FreeCodeCamp: Responsive Web Design, Basic HTML and HTML5 50%
+- [FreeCodeCamp](https://www.freecodecamp.org/hyjs)
 - The Odin Project: Foundations 41%
 - Linux Upskill Project
 - Hackerrank
