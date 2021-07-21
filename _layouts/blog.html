@@ -5,6 +5,11 @@ layout: default
 
 <header>
   <h1>{{ site.title }}</h1>
+	{%- if page.nav -%}
+	<nav>
+		{%- include nav.html -%}
+	</nav>
+	{%- endif -%}
 </header>
 <h2>My Blog</h2>
 <!-- {% include post_list.html %} -->
@@ -20,6 +25,8 @@ layout: default
     {% endfor %}
   </ul>
 {% endif %}
+
+
 <a href="/categories">Category list</a>
 <br>
 <a href="/tags">Tags list</a>

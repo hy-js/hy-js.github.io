@@ -10,9 +10,11 @@ layout: default
 <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
 <header>
   <h1>{{ site.title }}</h1>
-  <h2 id='color'>Hello world!</h2>
+  <h2 id='color'>hello world!</h2>
   {% if site.theme_config.show_description == true %}
     <p>{{ site.description }}</p>
+    <p><a href="/about" class="internal-link">More about me →</a></p>
+    <p><a href="/blog" class="internal-link">My writing →</a></p>
   {% endif %}
 </header>
 
@@ -30,9 +32,23 @@ layout: default
 
 {% if site.theme_config.show_blog == true %}
   <h2>{{ site.theme_config.home.title_blog }}</h2>
-  <p>Today: {{ site.time | date_to_long_string }}</p>
-  {% include post_list.html %}
-{% endif %}
+  <!-- <p>Today: {{ site.time | date_to_long_string }}</p> -->
+  {%- assign i = 0 -%}
+  <ul>
+  {%- for post in site.posts -%}
+    {%- unless post.categories contains "projects"-%}
+      {%- assign i = i | plus: 1 -%}
+      {%- include post_list.html -%}
+    {% endunless %}
+    
+    {%- if i == 3 -%}
+      {%- break -%}
+    {%- endif -%}
+  
+  {% endfor %}
+</ul>
+<p><a href="/categories" class="internal-link">All posts →</a></p>
+{%- endif -%}
 
 {% if site.theme_config.show_old_projects == true %}
   <h2>{{ site.theme_config.home.title_old_projects }}</h2>
